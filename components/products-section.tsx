@@ -20,26 +20,28 @@ export default function ProductsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product) => (
-            <Card key={product.id} className="overflow-hidden flex flex-col h-full">
-              <div className="relative h-60">
-                <Image
-                  src={product.image || "/placeholder.svg"}
-                  alt={product.name[language]}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <CardContent className="pt-6 flex-grow">
-                <h3 className="text-xl font-bold">{product.name[language]}</h3>
-                <p className="mt-2 text-muted-foreground">{product.excerpt[language]}</p>
-              </CardContent>
-              <CardFooter className="pt-0">
-                <Link href={`/products/${product.slug}`} className="w-full">
-                  <Button variant="outline" className="w-full">
-                    {translations.products.learnMore}
-                  </Button>
-                </Link>
-              </CardFooter>
+            <Card key={product.id} className="overflow-hidden dark:border border-transparent dark:border-gray-700 dark:hover:border-gray-500 hover:shadow-2xl flex flex-col h-full shadow-xl md:rounded-tl-[150px] md:rounded-br-[150px]">
+              <Link href={`/products/${product.slug}`}>
+                <div className="relative h-60">
+                  <Image
+                    src={product.image || "/placeholder.svg"}
+                    alt={product.name[language]}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardContent className="pt-6 flex-grow">
+                  <h3 className="text-xl font-bold">{product.name[language]}</h3>
+                  <p className="mt-2 text-muted-foreground">{product.excerpt[language]}</p>
+                </CardContent>
+                <CardFooter className="pt-0">
+                  <div className="w-full">
+                    <Button variant="outline" className="w-full md:w-[calc(100%-75px)]">
+                      {translations.products.learnMore}
+                    </Button>
+                  </div>
+                </CardFooter>
+              </Link>
             </Card>
           ))}
         </div>

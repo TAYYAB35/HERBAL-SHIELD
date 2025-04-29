@@ -283,7 +283,7 @@ export const products: Product[] = [
       en: "Enhance plant growth naturally with our organic hormone control solution. Promotes balanced development and increases yield without synthetic chemicals.",
       ur: "ہمارے نامیاتی ہارمون کنٹرول حل کے ساتھ قدرتی طور پر پودوں کی نشوونما کو بڑھائیں۔ مصنوعی کیمیکلز کے بغیر متوازن ترقی کو فروغ دیتا ہے اور پیداوار میں اضافہ کرتا ہے۔",
     },
-    image: "/images/hormones-product.jpg",
+    image: "/images/hormones-product.jpeg",
     disadvantages: {
       en: [
         {
@@ -493,7 +493,7 @@ export const products: Product[] = [
       en: "Provide your plants with complete nutrition using our organic solution. Improves soil health and promotes vigorous growth without synthetic fertilizers.",
       ur: "ہمارے نامیاتی حل کا استعمال کرتے ہوئے اپنے پودوں کو مکمل غذائیت فراہم کریں۔ مصنوعی کھادوں کے بغیر مٹی کی صحت کو بہتر بناتا ہے اور مضبوط نشوونما کو فروغ دیتا ہے۔",
     },
-    image: "/images/nutrition-product.jpg",
+    image: "/images/nutrition-product.webp",
     disadvantages: {
       en: [
         {

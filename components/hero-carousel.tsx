@@ -1,6 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import Link from "next/link"
@@ -37,12 +38,12 @@ interface CarouselSlide {
 const carouselSlides: CarouselSlide[] = [
   {
     title: {
-      en: "Natural Solutions for a Healthier World",
-      ur: "صحت مند دنیا کے لیے قدرتی حل",
+      en: "Defend Your Crops the Organic Way",
+      ur: "اپنی فصلوں کا قدرتی طریقے سے دفاع کریں۔",
     },
     description: {
-      en: "Organic Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions protect plants, promote growth, and enhance nutrition without harmful side effects.",
-      ur: "آرگینک ہربل شیلڈ کیمیائی مصنوعات کے لیے مؤثر، قدرتی متبادل فراہم کرتا ہے۔ ہمارے نامیاتی حل نقصان دہ ضمنی اثرات کے بغیر پودوں کی حفاظت کرتے ہیں، نشوونما کو فروغ دیتے ہیں، اور غذائیت کو بڑھاتے ہیں۔",
+      en: "Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions protect plants, promote growth, and enhance nutrition without harmful side effects.",
+      ur: "ہمارا پلانٹ پر مبنی فارمولہ زہریلے کیمیکلز کے بغیر نقصان دہ کیڑوں سے لڑتا ہے۔ یہ فصلوں کے لیے محفوظ ہے، ماحول کے لیے نرم ہے، اور ناپسندیدہ حملہ آوروں کے لیے سخت ہے — آپ کے پودوں کو وہ تحفظ فراہم کرتا ہے جس کے وہ مستحق ہیں۔",
     },
     primaryCta: {
       en: "Explore Products",
@@ -55,15 +56,19 @@ const carouselSlides: CarouselSlide[] = [
       href: "#contact",
     },
     image: "/images/hero-1.jpg",
+    badge: {
+      en: "100% Organic Solution",
+      ur: "100% قدرتی حل",
+    },
   },
   {
     title: {
-      en: "Protect Your Crops. Protect the Planet.",
-      ur: "اپنی فصلوں کی حفاظت کریں۔ سیارے کی حفاظت کریں۔",
+      en: "Activate Natural Growth from Within",
+      ur: "اندر سے قدرتی نمو کو چالو کریں",
     },
     description: {
-      en: "A safe, organic alternative to chemical pesticides that preserves soil health and biodiversity while effectively protecting your crops.",
-      ur: "کیمیائی کیڑے مار ادویات کا ایک محفوظ، نامیاتی متبادل جو مٹی کی صحت اور حیاتیاتی تنوع کو برقرار رکھتے ہوئے آپ کی فصلوں کی مؤثر طریقے سے حفاظت کرتا ہے۔",
+      en: "Enhance your plants’ internal hormone functions naturally. Our herbal blend promotes balanced growth, boosts flowering, and increases yield — supporting every stage of development with zero synthetic inputs.",
+      ur: "قدرتی طور پر اپنے پودوں کے اندرونی ہارمون کے افعال کو بہتر بنائیں۔ ہمارا جڑی بوٹیوں کا مرکب متوازن نشوونما کو فروغ دیتا ہے، پھولوں کو بڑھاتا ہے، اور پیداوار میں اضافہ کرتا ہے - صفر مصنوعی ان پٹ کے ساتھ ترقی کے ہر مرحلے میں معاونت کرتا ہے۔",
     },
     primaryCta: {
       en: "Try Herbal Shield Now",
@@ -78,17 +83,17 @@ const carouselSlides: CarouselSlide[] = [
     image: "/images/hero-2.jpg",
     badge: {
       en: "100% Organic Solution",
-      ur: "100% نامیاتی حل",
+      ur: "100% قدرتی حل",
     },
   },
   {
     title: {
-      en: "Enhance Growth Naturally",
-      ur: "قدرتی طور پر نشوونما کو بڑھائیں",
+      en: "Natural Nutrition for Stronger, Healthier Plants",
+      ur: "مضبوط، صحت مند پودوں کے لیے قدرتی غذائیت",
     },
     description: {
       en: "Our hormone control solution helps regulate plant growth naturally, promoting healthier development and higher yields without synthetic growth regulators.",
-      ur: "ہمارا ہارمون کنٹرول حل مصنوعی گروتھ ریگولیٹرز کے بغیر صحت مند نشوونما اور زیادہ پیداوار کو فروغ دیتے ہوئے، قدرتی طور پر پودوں کی نشوونما کو منظم کرنے میں مدد کرتا ہے۔",
+      ur: "ہمارے تمام قدرتی غذائیت کے حل کے ساتھ اپنے پودوں کی مکمل صلاحیت کو غیر مقفل کریں۔ مٹی اور ایندھن کے پودوں کی زندگی کو تقویت دینے کے لیے ڈیزائن کیا گیا ہے، یہ مضبوط نشوونما، تناؤ کے خلاف مزاحمت، اور باضابطہ طور پر بھرپور فصل کو یقینی بناتا ہے۔",
     },
     primaryCta: {
       en: "Learn More",
@@ -101,6 +106,10 @@ const carouselSlides: CarouselSlide[] = [
       href: "/products/hormones-control",
     },
     image: "/images/hero-3.jpg",
+    badge: {
+      en: "100% Organic Solution",
+      ur: "100% قدرتی حل",
+    },
   },
 ]
 
@@ -155,9 +164,21 @@ export default function HeroCarousel() {
         <div className="max-w-4xl mx-auto">
           {/* Badge (if available) */}
           {slide.badge && (
-            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-primary/10 text-primary text-sm font-medium">
+            <motion.div
+              className="inline-block px-3 py-1 mb-4 rounded-full bg-primary/10 text-primary text-sm font-medium"
+              animate={{
+                scale: [1, 1.1, 1],  // Scale up slightly, then back to normal
+                opacity: [1, 0.8, 1] // Light fade breathing effect
+              }}
+              transition={{
+                duration: 2,          // 2 seconds for one full cycle
+                repeat: Infinity,     // Repeat forever
+                repeatType: "loop",    // Loop smoothly
+                ease: "easeInOut"      // Soft ease
+              }}
+            >
               {slide.badge[language]}
-            </div>
+            </motion.div>
           )}
 
           {/* Title with animation */}

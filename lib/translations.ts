@@ -1,5 +1,5 @@
 export const en = {
-  brand: "Organic Herbal Shield",
+  brand: "Herbal Shield",
 
   nav: {
     home: "Home",
@@ -23,11 +23,11 @@ export const en = {
   },
 
   hero: {
-    title: "Natural Solutions for a Healthier World",
+    title: "Defend Your Crops the Organic Way",
     description:
-      "Organic Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions protect plants, promote growth, and enhance nutrition without harmful side effects.",
+      "Our plant-based formula fights off harmful pests without toxic chemicals. It’s safe for crops, gentle on the environment, and tough on unwanted invaders — giving your plants the protection they deserve.",
     primaryCta: "Explore Products",
-    secondaryCta: "Contact Us",
+    secondaryCta: "Try Herbal Shield Now",
   },
 
   products: {
@@ -44,10 +44,10 @@ export const en = {
   },
 
   product: {
-    disadvantagesTitle: "Disadvantages of Chemical Alternatives",
+    disadvantagesTitle: "Why Chemicals Aren’t the Best Choice",
     disadvantagesDescription: "Why chemical solutions are harmful for your plants, health, and the environment.",
 
-    advantagesTitle: "Advantages of Organic Herbal Shield",
+    advantagesTitle: "Nature’s Power, Proven by Herbal Shield",
     advantagesDescription: "How our organic solution provides better results without harmful side effects.",
 
     faqTitle: "Frequently Asked Questions",
@@ -93,7 +93,7 @@ export const en = {
 }
 
 export const ur = {
-  brand: "آرگینک ہربل شیلڈ",
+  brand: "ہربل شیلڈ",
 
   nav: {
     home: "ہوم",

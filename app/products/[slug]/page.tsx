@@ -18,7 +18,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="py-8">
       <ProductHero product={product} />
       <Disadvantages product={product} />
       <Advantages product={product} />
