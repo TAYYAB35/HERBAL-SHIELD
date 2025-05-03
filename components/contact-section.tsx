@@ -2,14 +2,35 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useLanguage } from "@/components/language-provider"
 import { useToast } from "@/hooks/use-toast"
+import { Send } from "lucide-react"
+import emailjs from '@emailjs/browser';
+
+
+//service_s5iqgjt
+
+// public service
+// STIkqGxc4b5Vt5_9C
+
+// Private key 
+// 7LxtxFj585b4Es-BEg2LG
+
+// template id
+//template_Of1kqa1
 
 export default function ContactSection() {
+
+  const form = useRef<HTMLFormElement>(null);
+
+  const service_id = 'service_s5iqgjt';
+  const template_id = 'template_trkvawh';
+  const public_key = 'STIkqGxc4b5Vt5_9C'
+
   const { translations } = useLanguage()
   const { toast } = useToast()
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -17,6 +38,22 @@ export default function ContactSection() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
+
+    emailjs.sendForm(
+      service_id,
+      template_id,
+      form.current!,
+      public_key
+    ).then(
+      (result) => {
+        console.log('SUCCESS!', result.text);
+        alert('Message sent!');
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+        alert('Failed to send message.');
+      }
+    );
 
     // Simulate form submission
     setTimeout(() => {
@@ -114,7 +151,7 @@ export default function ContactSection() {
           </div>
 
           <div className="bg-card p-6 rounded-lg shadow-sm">
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">
                   {translations.contact.form.name}
@@ -150,6 +187,7 @@ export default function ContactSection() {
 
               <Button type="submit" className="w-full" disabled={isSubmitting}>
                 {isSubmitting ? translations.contact.form.sending : translations.contact.form.send}
+                <Send className="mr-2 h-4 w-4" />
               </Button>
             </form>
           </div>
