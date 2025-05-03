@@ -11,7 +11,7 @@ export function generateStaticParams() {
 }
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = getProductBySlug(params.slug)
+  const product = getProductBySlug(params?.slug)
 
   if (!product) {
     notFound()
