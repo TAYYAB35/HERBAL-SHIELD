@@ -35,6 +35,11 @@ interface CarouselSlide {
   }
 }
 
+// Pre-defined message
+const message = "Hello! I'm interested in Organic Herbal Shield products."
+
+const whatsappUrl = `https://wa.me/+923038406091?text=${encodeURIComponent(message)}`
+
 const carouselSlides: CarouselSlide[] = [
   {
     title: {
@@ -78,7 +83,7 @@ const carouselSlides: CarouselSlide[] = [
     secondaryCta: {
       en: "Chat on WhatsApp",
       ur: "واٹس ایپ پر چیٹ کریں",
-      href: "#contact",
+      href: `${whatsappUrl}`,
     },
     image: "/images/hero-2.jpg",
     badge: {
@@ -117,6 +122,7 @@ export default function HeroCarousel() {
   const { language } = useLanguage()
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isTransitioning, setIsTransitioning] = useState(false)
+
 
   const goToSlide = (index: number) => {
     if (isTransitioning) return
@@ -218,7 +224,9 @@ export default function HeroCarousel() {
                 {slide.primaryCta[language]}
               </Button>
             </Link>
-            <Link href={slide.secondaryCta.href}>
+            <Link href={slide.secondaryCta.href} target={slide.secondaryCta.href.startsWith('http') ? '_blank' : undefined}
+              rel={slide.secondaryCta.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+            >
               <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 {slide.secondaryCta[language]}
               </Button>

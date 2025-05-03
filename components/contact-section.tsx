@@ -60,7 +60,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-medium">{translations.contact.email}</h3>
-                  <p className="text-sm text-muted-foreground">info@organicherbalshield.com</p>
+                  <p className="text-sm text-muted-foreground">herbal.shield@yahoo.com</p>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-medium">{translations.contact.phone}</h3>
-                  <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-sm text-muted-foreground">+92 (303) 8406091</p>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-medium">{translations.contact.address}</h3>
-                  <p className="text-sm text-muted-foreground">123 Organic Way, Green City</p>
+                  <p className="text-sm text-muted-foreground">UAF Faisalabad</p>
                 </div>
               </div>
             </div>

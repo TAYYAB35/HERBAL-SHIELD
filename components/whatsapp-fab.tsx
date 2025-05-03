@@ -9,8 +9,7 @@ export default function WhatsAppFAB() {
   const { language } = useLanguage()
   const [isHovered, setIsHovered] = useState(false)
 
-  // WhatsApp business number - replace with your actual number
-  const phoneNumber = "+1234567890"
+  const phoneNumber = "+923038406091"
 
   // Pre-defined message
   const message =

@@ -12,7 +12,7 @@ import WhatsAppFAB from "@/components/whatsapp-fab"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Leaf & Shield",
+  title: "Herbal Shield",
   description: "Natural solutions for pesticide control, hormones control, and nutrition control",
     generator: 'v0.dev'
 }

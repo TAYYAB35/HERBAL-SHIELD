@@ -47,13 +47,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">{translations.footer.contact}</h3>
             <ul className="mt-4 space-y-2">
               <li className="text-sm text-muted-foreground">
-                <span className="font-medium">{translations.footer.email}:</span> info@organicherbalshield.com
+                <span className="font-medium">{translations.footer.email}:</span> herbal.shield@yahoo.com
               </li>
               <li className="text-sm text-muted-foreground">
-                <span className="font-medium">{translations.footer.phone}:</span> +1 (555) 123-4567
+                <span className="font-medium">{translations.footer.phone}:</span> +92 (303) 8406091
               </li>
               <li className="text-sm text-muted-foreground">
-                <span className="font-medium">{translations.footer.address}:</span> 123 Organic Way, Green City
+                <span className="font-medium">{translations.footer.address}:</span> UAF Faisalabad, Pakistan
               </li>
             </ul>
 
