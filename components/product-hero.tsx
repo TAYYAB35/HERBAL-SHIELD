@@ -20,15 +20,15 @@ export default function ProductHero({ product }: ProductHeroProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
-              100% {language === "en" ? "Organic Solution" : "نامیاتی حل"}
+              100% {language === "en" ? "Organic Solution" : "قدرتی حل"}
             </div>
 
             <div className="space-y-2">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
-                {language === "en" ? "Protect Your Crops." : "اپنی فصلوں کی حفاظت کریں۔"}
+              PlantGuard 
                 <br />
                 <span className="text-primary">
-                  {language === "en" ? "Protect the Planet." : "سیارے کی حفاظت کریں۔"}
+                  {language === "en" ? "SafeSpray " : "محفوظ چھڑکاؤ"}
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">{product.description[language]}</p>

@@ -47,8 +47,8 @@ const carouselSlides: CarouselSlide[] = [
       ur: "اپنی فصلوں کا قدرتی طریقے سے دفاع کریں۔",
     },
     description: {
-      en: "Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions protect plants, promote growth, and enhance nutrition without harmful side effects.",
-      ur: "ہمارا پلانٹ پر مبنی فارمولہ زہریلے کیمیکلز کے بغیر نقصان دہ کیڑوں سے لڑتا ہے۔ یہ فصلوں کے لیے محفوظ ہے، ماحول کے لیے نرم ہے، اور ناپسندیدہ حملہ آوروں کے لیے سخت ہے — آپ کے پودوں کو وہ تحفظ فراہم کرتا ہے جس کے وہ مستحق ہیں۔",
+      en: "Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions (PlantGuard, HormoGuard) protect plants from pests, promote growth, and enhance nutrition without harmful side effects.",
+      ur: "ہربل شیلڈ کیمیائی مصنوعات کا ایک مؤثر اور قدرتی متبادل فراہم کرتی ہے، ہمارے قدرتی حل جیسے پلانٹ گارڈ اور ہارمو گارڈ پودوں کو کیڑوں سے بچاتے ہیں، نشوونما کو فروغ دیتے ہیں اور بغیر کسی نقصان دہ ضمنی اثرات کے غذائیت میں اضافہ کرتے ہیں۔"
     },
     primaryCta: {
       en: "Explore Products",
@@ -68,12 +68,12 @@ const carouselSlides: CarouselSlide[] = [
   },
   {
     title: {
-      en: "Activate Natural Growth from Within",
-      ur: "اندر سے قدرتی نمو کو چالو کریں",
+      en: "Boost Natural Growth from Within",
+      ur: "اندر سے قدرتی ترقی کو فروغ دیں۔",
     },
     description: {
-      en: "Enhance your plants’ internal hormone functions naturally. Our herbal blend promotes balanced growth, boosts flowering, and increases yield — supporting every stage of development with zero synthetic inputs.",
-      ur: "قدرتی طور پر اپنے پودوں کے اندرونی ہارمون کے افعال کو بہتر بنائیں۔ ہمارا جڑی بوٹیوں کا مرکب متوازن نشوونما کو فروغ دیتا ہے، پھولوں کو بڑھاتا ہے، اور پیداوار میں اضافہ کرتا ہے - صفر مصنوعی ان پٹ کے ساتھ ترقی کے ہر مرحلے میں معاونت کرتا ہے۔",
+      en: "Maintain your plants’ hormonal balance naturally. Our herbal hormonal product promotes growth and development thus ensuring better yield- supporting every stage of plant development with zero synthetic inputs. ",
+      ur: "قدرتی طور پر اپنے پودوں کے ہارمونل توازن کو برقرار رکھیں۔ ہماری جڑی بوٹیوں والی ہارمونل پروڈکٹ ترقی اور نشوونما کو فروغ دیتی ہے اس طرح بہتر پیداوار کو یقینی بناتی ہے- صفر مصنوعی ان پٹ کے ساتھ پودوں کی نشوونما کے ہر مرحلے میں معاونت کرتی ہے۔"
     },
     primaryCta: {
       en: "Try Herbal Shield Now",
@@ -93,12 +93,12 @@ const carouselSlides: CarouselSlide[] = [
   },
   {
     title: {
-      en: "Natural Nutrition for Stronger, Healthier Plants",
-      ur: "مضبوط، صحت مند پودوں کے لیے قدرتی غذائیت",
+      en: "Natural Nutrients for resilient, and thriving plants.",
+      ur: "لچکدار، اور پھل پھولنے والے پودوں کے لیے قدرتی غذائی اجزاء",
     },
     description: {
-      en: "Our hormone control solution helps regulate plant growth naturally, promoting healthier development and higher yields without synthetic growth regulators.",
-      ur: "ہمارے تمام قدرتی غذائیت کے حل کے ساتھ اپنے پودوں کی مکمل صلاحیت کو غیر مقفل کریں۔ مٹی اور ایندھن کے پودوں کی زندگی کو تقویت دینے کے لیے ڈیزائن کیا گیا ہے، یہ مضبوط نشوونما، تناؤ کے خلاف مزاحمت، اور باضابطہ طور پر بھرپور فصل کو یقینی بناتا ہے۔",
+      en:"Balanced nutrients helps to improves plant health with higher yields, thus ensuring bio-fortified fruits and vegetables as well as agronomic crops. ",
+      ur: "متوازن غذائی اجزاء زیادہ پیداوار کے ساتھ پودوں کی صحت کو بہتر بنانے میں مدد کرتے ہیں، اس طرح بایو فورٹیفائیڈ پھلوں اور سبزیوں کے ساتھ ساتھ زرعی فصلوں کو بھی یقینی بناتے ہیں۔",
     },
     primaryCta: {
       en: "Learn More",
