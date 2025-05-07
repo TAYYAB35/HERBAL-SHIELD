@@ -19,6 +19,7 @@ export interface Product {
   }
   image: string
   linkAry: Array<{ link: string }>
+  imgAry: Array<{ blink: string, bText: string , alink: string, aText: string,overlayText : string  }>,
   disadvantages: {
     en: Array<{ title: string; description: string }>
     ur: Array<{ title: string; description: string }>
@@ -72,6 +73,11 @@ export const products: Product[] = [
     },
     image: "/images/pesticide-product.jpg",
     linkAry: [{ link: "https://www.youtube.com/embed/LeLSyU_iI9o?si=FSCKwuk3unKdWx2X" }],
+    imgAry: [
+      { blink: "/images/extracted_images/slide2_image1.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)', bText: 'Before', alink: "/images/extracted_images/slide2_image2.jpg", aText: 'After' },
+      { blink: "/images/extracted_images/slide3_image3.png",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)', bText: 'Untreated control', alink: "/images/extracted_images/slide3_image4.png", aText: 'Treated, after one spray' },
+      { blink: "/images/extracted_images/slide4_image5.png",overlayText : 'Maize (مکئی)', bText: 'Untreated control', alink: "/images/extracted_images/slide4_image6.png", aText: 'Treated, after one spray' },
+    ],
     disadvantages: {
       en: [
         {
@@ -268,7 +274,12 @@ export const products: Product[] = [
     },
     image: "/images/hormones-product.jpeg",
     linkAry: [{ link: "https://www.youtube.com/embed/Z8A3PZIkuyQ?si=tdFTed1R84PP5qxE" }],
-    disadvantages: {
+    imgAry: [
+      { blink: "/images/extracted_images/slide6_image7.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Before', aText:'Ater , One Year', alink: "/images/extracted_images/slide6_image8.png" },
+      { blink: "/images/extracted_images/slide7_image9.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Before', aText:'After', alink: "/images/extracted_images/slide7_image10.jpg" },
+      { blink: "/images/extracted_images/slide8_image11.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Stem Length , Before', aText:'Stem Length , After', alink: "/images/extracted_images/slide8_image12.jpg" },
+      { blink: "/images/extracted_images/slide9_image13.png",overlayText : 'Apple (سیب)',bText :'Before', aText:'After (One Month)', alink: "/images/extracted_images/slide9_image14.png" }
+    ], disadvantages: {
       en: [
         {
           title: "stunted growth",
@@ -439,6 +450,12 @@ export const products: Product[] = [
       ur: "ہمارے قدرتی حل کا استعمال کرتے ہوئے اپنے پودوں کو مکمل غذائیت فراہم کریں۔ مصنوعی کھادوں کے بغیر مٹی کی صحت کو بہتر بناتا ہے اور مضبوط نشوونما کو فروغ دیتا ہے۔",
     },
     image: "/images/nutrition-product.webp",
+    imgAry: [
+      { blink: "/images/extracted_images/slide11_image15.png",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)', bText: 'Before', aText: 'After', alink: "/images/extracted_images/slide11_image16.png" },
+      { blink: "/images/extracted_images/slide12_image17.png",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)', bText: 'Untreacted Control', aText: 'After Treatment', alink: "/images/extracted_images/slide12_image18.png" },
+      { blink: "/images/extracted_images/slide13_image19.png",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)', bText: 'Before', aText: 'After', alink: "/images/extracted_images/slide13_image20.png" },
+      { blink: "/images/extracted_images/slide14_image21.png",overlayText : 'Apricot (خوبانی)', bText: 'Before', aText: 'After', alink: "/images/extracted_images/slide14_image22.png" }
+    ],
     linkAry: [{ link: "https://www.youtube.com/embed/j1HIClkuLnw?si=J_yvqnqrtz-0BIkZ" }, { link: "https://www.youtube.com/embed/8TvK0UN6A2E?si=yolqcl_8stlzV9-a" }],
     disadvantages: {
       en: [
@@ -481,7 +498,7 @@ export const products: Product[] = [
             "پودوں کی نشوونما کے لیے مٹی، پانی اور نامیاتی مادہ سے حاصل ہونے والے غذائی اجزاء کا مسلسل چکر ضروری ہوتا ہے۔ اس میں کسی بھی قسم کا خلل، جیسے غذائی قلت یا عدم توازن، پودوں کی صحت اور پیداوار کو متاثر کر سکتا ہے۔",
         },
       ],
-      
+
     },
     advantages: {
       en: [

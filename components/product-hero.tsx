@@ -25,10 +25,10 @@ export default function ProductHero({ product }: ProductHeroProps) {
 
             <div className="space-y-2">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
-              PlantGuard 
+              {product.name[language]}
                 <br />
                 <span className="text-primary">
-                  {language === "en" ? "SafeSpray " : "محفوظ چھڑکاؤ"}
+                  {product.shortDescription[language]}
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">{product.description[language]}</p>
