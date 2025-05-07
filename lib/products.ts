@@ -66,7 +66,7 @@ export const products: Product[] = [
       ur: "مصنوعی کیمیائی زہروں کو خیرباد کہہ دیں — پلانٹ گارڈ پودوں پر مبنی ایسا محفوظ تحفظ فراہم کرتا ہے جو آپ کے باغ، آپ کے خاندان، اور زمین کے لیے محفوظ ہے",
     },
     excerpt: {
-      en: "Also watch out this video, change it and use it as promo, how plant response to insects/pest. Plants nervous system response towards insects/pes",
+      en: "Plants nervous system response towards insects/pes",
       ur:
         "یہ ویڈیو دیکھیں اور جانیں کہ پودے کیڑے یا آفات کے حملے پر کس طرح ردعمل ظاہر کرتے ہیں۔ پودوں کا اعصابی نظام کیڑوں اور آفات کے خلاف کس طرح کام کرتا ہے",
     },
@@ -167,54 +167,34 @@ export const products: Product[] = [
         {
           question: "How often should I apply the organic pesticide?",
           answer:
-            "For preventive measures, apply once every 2-3 weeks. If you already have a pest problem, apply once a week until the issue is resolved, then return to the preventive schedule.",
-        },
-        {
-          question: "Is it safe to use around children and pets?",
-          answer:
-            "Yes, our organic pesticide is safe for use around children and pets. However, as with any product, we recommend keeping children and pets away from the area until the spray has dried.",
-        },
-        {
-          question: "How soon after application can I harvest my vegetables?",
-          answer:
-            "You can harvest vegetables the same day after the spray has dried. We recommend rinsing produce before consumption as a general practice.",
+            "For preventive measures, apply once every 2-3 weeks. If you already have a pest problem, apply once every 7-10 days until the issue is resolved, then return to the preventive schedule.",
         },
         {
           question: "What pests does it control?",
           answer:
-            "Our organic pesticide is effective against aphids, caterpillars, whiteflies, spider mites, and many other common garden pests.",
+            "Our organic pesticide is effective against aphids, jassid, caterpillars, whiteflies, spider mites, and many other common garden pests.",
         },
         {
           question: "Does it work as well as chemical pesticides?",
           answer:
-            "Our organic solution may take slightly longer to show results compared to harsh chemicals, but it provides effective control without the harmful side effects. For severe infestations, multiple applications may be necessary.",
+            "Our organic solution may take slightly longer to show results compared to harsh chemicals, but it provides effective control without the harmful side effects. For severe infestations, multiple applications (2-3) may be necessary.",
         },
       ],
       ur: [
         {
-          question: "مجھے قدرتی کیڑے مار دوا کتنی بار لگانی چاہیے؟",
+          question: "مجھے نامیاتی کیڑے مار دوا کتنی بار لگانی چاہیے؟",
           answer:
-            "حفاظتی اقدامات کے لیے، ہر 2-3 ہفتوں میں ایک بار لگائیں۔ اگر آپ کو پہلے سے ہی کیڑوں کا مسئلہ ہے، تو مسئلہ حل ہونے تک ہفتے میں ایک بار لگائیں، پھر حفاظتی شیڈول پر واپس آ جائیں۔",
+            "احتیاطی تدابیر کے طور پر، ہر 2-3 ہفتے بعد استعمال کریں۔ اگر پہلے سے کیڑوں کا مسئلہ ہے تو ہر 7-10 دن بعد لگائیں جب تک مسئلہ حل نہ ہو جائے، پھر دوبارہ احتیاطی شیڈول پر واپس آجائیں۔",
         },
         {
-          question: "کیا یہ بچوں اور پالتو جانوروں کے آس پاس استعمال کرنے کے لیے محفوظ ہے؟",
+          question: "یہ کون سے کیڑوں کو قابو میں رکھتی ہے؟",
           answer:
-            "ہاں، ہماری قدرتی کیڑے مار دوا بچوں اور پالتو جانوروں کے آس پاس استعمال کرنے کے لیے محفوظ ہے۔ تاہم، کسی بھی مصنوعات کی طرح، ہم تجویز کرتے ہیں کہ سپرے کے خشک ہونے تک بچوں اور پالتو جانوروں کو علاقے سے دور رکھیں۔",
+            "ہماری نامیاتی کیڑے مار دوا ایفڈز، جیسڈ، کیٹرپلرز، وائٹ فلائز، اسپائیڈر مائٹس اور دیگر عام باغی کیڑوں کے خلاف مؤثر ہے۔",
         },
         {
-          question: "استعمال کے بعد میں اپنی سبزیاں کتنی جلدی کاٹ سکتا ہوں؟",
+          question: "کیا یہ کیمیائی کیڑے مار دوا کی طرح مؤثر ہے؟",
           answer:
-            "آپ سپرے کے خشک ہونے کے بعد اسی دن سبزیاں کاٹ سکتے ہیں۔ ہم عام طور پر استعمال سے پہلے پیداوار کو دھونے کی تجویز کرتے ہیں۔",
-        },
-        {
-          question: "یہ کن کیڑوں کو کنٹرول کرتا ہے؟",
-          answer:
-            "ہماری قدرتی کیڑے مار دوا ایفڈز، کیٹرپلرز، وائٹ فلائیز، سپائیڈر مائٹس، اور بہت سے دیگر عام باغ کے کیڑوں کے خلاف مؤثر ہے۔",
-        },
-        {
-          question: "کیا یہ کیمیائی کیڑے مار ادویات کی طرح کام کرتا ہے؟",
-          answer:
-            "ہمارا قدرتی حل سخت کیمیکلز کے مقابلے میں نتائج دکھانے میں تھوڑا زیادہ وقت لے سکتا ہے، لیکن یہ نقصان دہ ضمنی اثرات کے بغیر مؤثر کنٹرول فراہم کرتا ہے۔ شدید انفیکشن کے لیے، متعدد ایپلیکیشنز کی ضرورت ہو سکتی ہے۔",
+            "ہماری نامیاتی دوا کے اثرات ظاہر ہونے میں کیمیکل کی نسبت تھوڑا وقت لگ سکتا ہے، لیکن یہ بغیر نقصان دہ اثرات کے مؤثر تحفظ فراہم کرتی ہے۔ شدید حملے کی صورت میں 2-3 بار اسپرے کی ضرورت پڑ سکتی ہے۔",
         },
       ],
     },
@@ -271,28 +251,28 @@ export const products: Product[] = [
     id: 2,
     slug: "hormones-control",
     name: {
-      en: "Hormones Control",
-      ur: "ہارمونز کنٹرول",
+      en: "HormoGuard, BioSync, BioSync Guard",
+      ur: "HormoGuard, BioSync, BioSync Guard",
     },
     shortDescription: {
       en: "Natural hormone regulation for plants",
       ur: "پودوں کے لیے قدرتی ہارمون ریگولیشن",
     },
     description: {
-      en: "Our organic hormone control solution helps regulate plant growth naturally, promoting healthier development and higher yields without synthetic growth regulators.",
-      ur: "ہمارا قدرتی ہارمون کنٹرول حل مصنوعی گروتھ ریگولیٹرز کے بغیر صحت مند نشوونما اور زیادہ پیداوار کو فروغ دیتے ہوئے، قدرتی طور پر پودوں کی نشوونما کو منظم کرنے میں مدد کرتا ہے۔",
+      en: "Our ‘HormoGuard’ organic hormonal control solution helps to regulate plant growth and developmental stages irrespective of climate change scenarios that ensures better yield.",
+      ur: "ہمارا ’ہارمو گارڈ‘ نامیاتی ہارمونی کنٹرول حل پودوں کی نشوونما اور ترقی کے مراحل کو موسمیاتی تبدیلی کے باوجود متوازن رکھتا ہے، جو بہتر پیداوار کو یقینی بناتا ہے۔",
     },
     excerpt: {
       en: "Enhance plant growth naturally with our organic hormone control solution. Promotes balanced development and increases yield without synthetic chemicals.",
       ur: "ہمارے قدرتی ہارمون کنٹرول حل کے ساتھ قدرتی طور پر پودوں کی نشوونما کو بڑھائیں۔ مصنوعی کیمیکلز کے بغیر متوازن ترقی کو فروغ دیتا ہے اور پیداوار میں اضافہ کرتا ہے۔",
     },
     image: "/images/hormones-product.jpeg",
-    linkAry: [{ link: "https://www.youtube.com/watch?v=Z8A3PZIkuyQ" }],
+    linkAry: [{ link: "https://www.youtube.com/embed/Z8A3PZIkuyQ?si=tdFTed1R84PP5qxE" }],
     disadvantages: {
       en: [
         {
-          title: "Unnatural Growth",
-          description: "Synthetic hormones force unnatural growth patterns that can weaken plants.",
+          title: "stunted growth",
+          description: "Synthetic hormones force stunted growth patterns that can weaken plants.",
         },
         {
           title: "Reduced Nutrient Content",
@@ -376,56 +356,17 @@ export const products: Product[] = [
     faqs: {
       en: [
         {
-          question: "How does organic hormone control differ from synthetic hormones?",
-          answer:
-            "Organic hormone control works with the plant's natural processes rather than forcing growth. It provides the building blocks for the plant to produce its own hormones in balanced amounts, resulting in healthier, more resilient plants.",
-        },
-        {
-          question: "When should I apply the hormone control solution?",
-          answer:
-            "For best results, apply during the early growth stages and again when flowering begins. Follow the specific instructions for your crop type as timing can vary.",
-        },
-        {
-          question: "Will this help with fruit production?",
-          answer:
-            "Yes, our organic hormone control helps improve flowering, fruit set, and fruit development, often resulting in higher yields and better quality produce.",
-        },
-        {
-          question: "Is it safe for all types of plants?",
-          answer:
-            "Our product is safe for vegetables, fruits, flowers, and ornamental plants. However, we recommend testing on a small area first for sensitive or rare plant varieties.",
-        },
-        {
           question: "How long until I see results?",
           answer:
-            "You may notice improved vigor within 1-2 weeks, but the full benefits for growth, flowering, and fruiting will develop over the entire growing season.",
+            "You may notice improved vigor within 1-2 weeks, but the full benefits for growth, flowering, and fruiting will develop over the entire growing season.HormoGuard is the best product to get the desired vegetative growth, thus ensuring promising yield outcomes under climate change scenarios. ",
         },
+
       ],
       ur: [
         {
-          question: "قدرتی ہارمون کنٹرول مصنوعی ہارمونز سے کیسے مختلف ہے؟",
+          question: "نتائج ظاہر ہونے میں کتنا وقت لگتا ہے؟",
           answer:
-            "قدرتی ہارمون کنٹرول نشوونما پر زور دینے کے بجائے پودے کے قدرتی عمل کے ساتھ کام کرتا ہے۔ یہ پودے کو متوازن مقدار میں اپنے ہارمونز پیدا کرنے کے لیے بلڈنگ بلاکس فراہم کرتا ہے، جس کے نتیجے میں صحت مند، زیادہ لچکدار پودے ہوتے ہیں۔",
-        },
-        {
-          question: "مجھے ہارمون کنٹرول سلوشن کب لگانا چاہیے؟",
-          answer:
-            "بہترین نتائج کے لیے، ابتدائی نشوونما کے مراحل کے دوران اور پھر جب پھول آنا شروع ہو تو دوبارہ لگائیں۔ اپنی فصل کی قسم کے لیے مخصوص ہدایات پر عمل کریں کیونکہ ٹائمنگ مختلف ہو سکتی ہے۔",
-        },
-        {
-          question: "کیا یہ پھل کی پیداوار میں مدد کرے گا؟",
-          answer:
-            "ہاں، ہمارا قدرتی ہارمون کنٹرول پھولوں، پھل سیٹ، اور پھل کی نشوونما کو بہتر بنانے میں مدد کرتا ہے، جس کے نتیجے میں اکثر زیادہ پیداوار اور بہتر معیار کی پیداوار ہوتی ہے۔",
-        },
-        {
-          question: "کیا یہ تمام قسم کے پودوں کے لیے محفوظ ہے؟",
-          answer:
-            "ہماری مصنوعات سبزیوں، پھلوں، پھولوں، اور زینتی پودوں کے لیے محفوظ ہے۔ تاہم، ہم حساس یا نایاب پودوں کی اقسام کے لیے پہلے ایک چھوٹے سے علاقے پر ٹیسٹ کرنے کی تجویز کرتے ہیں۔",
-        },
-        {
-          question: "نتائج دیکھنے میں کتنا وقت لگے گا؟",
-          answer:
-            "آپ کو 1-2 ہفتوں کے اندر بہتر توانائی نظر آ سکتی ہے، لیکن نشوونما، پھولوں، اور پھلوں کے لیے مکمل فوائد پوری اگاؤ کے موسم میں تیار ہوں گے۔",
+            "آپ 1 سے 2 ہفتوں میں پودے کی بہتر توانائی اور نشوونما محسوس کر سکتے ہیں، لیکن مکمل فوائد جیسے نشوونما، پھول آنا، اور پھل دینا پورے اگنے کے موسم میں ظاہر ہوں گے۔ ہارموگارڈ بہترین پیداوار کے لیے مطلوبہ سبز نشوونما حاصل کرنے کا بہترین حل ہے، خاص طور پر موسمیاتی تبدیلی کے حالات میں۔",
         },
       ],
     },
@@ -482,28 +423,28 @@ export const products: Product[] = [
     id: 3,
     slug: "nutrition-control",
     name: {
-      en: "Nutrition Control",
-      ur: "غذائیت کنٹرول",
+      en: "NutriGuard, Plant-IQ",
+      ur: "NutriGuard, Plant-IQ",
     },
     shortDescription: {
       en: "Complete organic plant nutrition",
       ur: "مکمل قدرتی پودوں کی غذائیت",
     },
     description: {
-      en: "Our organic nutrition control solution provides balanced nutrients for optimal plant growth. Enhance soil health and plant vitality with our complete organic formula.",
-      ur: "ہمارا قدرتی غذائیت کنٹرول حل پودوں کی بہترین نشوونما کے لیے متوازن غذائی اجزاء فراہم کرتا ہے۔ ہمارے مکمل قدرتی فارمولے کے ساتھ مٹی کی صحت اور پودوں کی توانائی کو بڑھائیں۔",
+      en: "Unlock the full potential of your plants with our balanced nutrients blend “NutriGuard” formula, promoting growth, profuse flowering and fruiting, avoid pre-harvest fruit drop issues, thus nutritious and flavorful bio-fortified plant products.",
+      ur: "اپنے پودوں کی مکمل صلاحیت کو اُجاگر کریں ہمارے متوازن غذائی مرکبنیوٹری گارڈ کے ذریعے، جو نشوونما، بھرپور پھولوں اور پھلوں کی افزائش کو فروغ دیتا ہے، قبل از وقت پھل گرنے کے مسائل سے بچاتا ہے، اور غذائیت سے بھرپور اور ذائقہ دار حیاتیاتی طور پر مضبوط پیداوار کو یقینی بناتا ہے۔"
     },
     excerpt: {
       en: "Provide your plants with complete nutrition using our organic solution. Improves soil health and promotes vigorous growth without synthetic fertilizers.",
       ur: "ہمارے قدرتی حل کا استعمال کرتے ہوئے اپنے پودوں کو مکمل غذائیت فراہم کریں۔ مصنوعی کھادوں کے بغیر مٹی کی صحت کو بہتر بناتا ہے اور مضبوط نشوونما کو فروغ دیتا ہے۔",
     },
     image: "/images/nutrition-product.webp",
-    linkAry: [{ link: "https://www.youtube.com/watch?v=j1HIClkuLnw" },{ link: "https://www.youtube.com/watch?v=8TvK0UN6A2E" }],
+    linkAry: [{ link: "https://www.youtube.com/embed/j1HIClkuLnw?si=J_yvqnqrtz-0BIkZ" }, { link: "https://www.youtube.com/embed/8TvK0UN6A2E?si=yolqcl_8stlzV9-a" }],
     disadvantages: {
       en: [
         {
-          title: "Nutrient Imbalance",
-          description: "Synthetic fertilizers often provide limited nutrients, creating imbalances in soil chemistry.",
+          title: "malnourished nutrition",
+          description: "Just like humans, plants require balanced nutrition to thrive. Our organic solution combats malnourishment and soil issues, ensuring optimal growth and vitality",
         },
         {
           title: "Soil Degradation",
@@ -514,38 +455,39 @@ export const products: Product[] = [
           description: "Synthetic nutrients easily leach into groundwater and waterways, causing pollution.",
         },
         {
-          title: "Dependency Cycle",
-          description: "Plants become dependent on synthetic inputs, requiring increasing amounts over time.",
+          title: "Dependency cycle for nutrients",
+          description: "Plants rely on a continuous nutrient cycle for growth, where soil, water, and organic matter provide essential elements. Disruptions in this cycle, like nutrient depletion or imbalance, can hinder plant health and productivity",
         },
       ],
       ur: [
         {
-          title: "غذائی عدم توازن",
+          title: "غذائی قلت",
           description:
-            "مصنوعی کھادیں اکثر محدود غذائی اجزاء فراہم کرتی ہیں، جس سے مٹی کی کیمسٹری میں عدم توازن پیدا ہوتا ہے۔",
+            "جیسے انسانوں کو متوازن غذا کی ضرورت ہوتی ہے، ویسے ہی پودوں کی نشوونما کے لیے مکمل غذائیت ضروری ہے۔ ہمارا نامیاتی حل غذائی قلت اور مٹی کے مسائل پر قابو پاتا ہے تاکہ بہتر نشوونما اور توانائی ممکن ہو سکے۔",
         },
         {
           title: "مٹی کی تنزلی",
           description:
-            "کیمیائی کھادیں فائدہ مند مٹی کے مائیکرو آرگنزم کو نقصان پہنچا سکتی ہیں اور وقت کے ساتھ مٹی کی صحت کو کم کر سکتی ہیں۔",
+            "کیمیائی کھادیں مٹی میں موجود فائدہ مند مائیکرو آرگنزمز کو نقصان پہنچا سکتی ہیں اور وقت کے ساتھ ساتھ مٹی کی مجموعی صحت کو کم کر دیتی ہیں۔",
         },
         {
           title: "پانی کی آلودگی",
           description:
-            "مصنوعی غذائی اجزاء آسانی سے زمینی پانی اور آبی راستوں میں رس جاتے ہیں، جس سے آلودگی پیدا ہوتی ہے۔",
+            "مصنوعی غذائی اجزاء زیر زمین پانی اور آبی گزرگاہوں میں آسانی سے شامل ہو کر ماحولیاتی آلودگی کا باعث بنتے ہیں۔",
         },
         {
-          title: "انحصار کا چکر",
+          title: "غذائی انحصار کا چکر",
           description:
-            "پودے مصنوعی ان پٹس پر منحصر ہو جاتے ہیں، جس کے لیے وقت کے ساتھ بڑھتی ہوئی مقدار کی ضرورت ہوتی ہے۔",
+            "پودوں کی نشوونما کے لیے مٹی، پانی اور نامیاتی مادہ سے حاصل ہونے والے غذائی اجزاء کا مسلسل چکر ضروری ہوتا ہے۔ اس میں کسی بھی قسم کا خلل، جیسے غذائی قلت یا عدم توازن، پودوں کی صحت اور پیداوار کو متاثر کر سکتا ہے۔",
         },
       ],
+      
     },
     advantages: {
       en: [
         {
-          title: "Complete Nutrition",
-          description: "Provides a full spectrum of macro and micronutrients for optimal plant health.",
+          title: "Balanced nutrition",
+          description: "Slow release should be changed Readily available to plants (Foliar nutrition provides nutrients directly to plants through their leaves, offering a readily available and fast-acting source of nourishmen",
         },
         {
           title: "Soil Enrichment",
