@@ -6,7 +6,7 @@ export default function VideoSection({ product }: { product: any }) {
     const { language, translations } = useLanguage()
 
     return (
-        <section className="py-12 bg-muted/30">
+        <section className="py-12 bg-muted/80">
             <div className="container mx-auto px-4">
                 <div>
                     {product && (

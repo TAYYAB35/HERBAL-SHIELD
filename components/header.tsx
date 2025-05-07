@@ -48,7 +48,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <Leaf className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold text-primary">{translations.brand}</span>
+              <span className="text-xl font-bold text-primary">HERBAL SHIELD</span>
             </Link>
           </div>
 
