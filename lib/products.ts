@@ -55,8 +55,8 @@ export const products: Product[] = [
     id: 1,
     slug: "pesticide-control",
     name: {
-      en: "PlantGuard , SafeSpray",
-      ur: "PlantGuard , SafeSpray",
+      en: "SafeSpray",
+      ur: "SafeSpray",
     },
     shortDescription: {
       en: "Keep pests out — the natural way, with PlantGuard",
@@ -257,15 +257,15 @@ export const products: Product[] = [
     id: 2,
     slug: "hormones-control",
     name: {
-      en: "HormoGuard, BioSync, BioSync Guard",
-      ur: "HormoGuard, BioSync, BioSync Guard",
+      en: "BioSync",
+      ur: "BioSync",
     },
     shortDescription: {
       en: "Natural hormone regulation for plants",
       ur: "پودوں کے لیے قدرتی ہارمون ریگولیشن",
     },
     description: {
-      en: "Our ‘HormoGuard’ organic hormonal control solution helps to regulate plant growth and developmental stages irrespective of climate change scenarios that ensures better yield.",
+      en: "Our BioSync organic hormonal control solution helps to regulate plant growth and developmental stages irrespective of climate change scenarios that ensures better yield.",
       ur: "ہمارا ’ہارمو گارڈ‘ نامیاتی ہارمونی کنٹرول حل پودوں کی نشوونما اور ترقی کے مراحل کو موسمیاتی تبدیلی کے باوجود متوازن رکھتا ہے، جو بہتر پیداوار کو یقینی بناتا ہے۔",
     },
     excerpt: {
@@ -278,7 +278,7 @@ export const products: Product[] = [
       { blink: "/images/extracted_images/slide6_image7.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Before', aText:'Ater , One Year', alink: "/images/extracted_images/slide6_image8.png" },
       { blink: "/images/extracted_images/slide7_image9.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Before', aText:'After', alink: "/images/extracted_images/slide7_image10.jpg" },
       { blink: "/images/extracted_images/slide8_image11.jpg",overlayText : 'Citrus (سنترہ، لیموں وغیرہ)',bText :'Stem Length , Before', aText:'Stem Length , After', alink: "/images/extracted_images/slide8_image12.jpg" },
-      { blink: "/images/extracted_images/slide9_image13.png",overlayText : 'Apple (سیب)',bText :'Before', aText:'After (One Month)', alink: "/images/extracted_images/slide9_image14.png" }
+      { blink: "/images/extracted_images/slide9_image14.png",overlayText : 'Apple (سیب)',bText :'Before', aText:'After (One Month)', alink: "/images/extracted_images/slide9_image13.png" }
     ], disadvantages: {
       en: [
         {
@@ -434,8 +434,8 @@ export const products: Product[] = [
     id: 3,
     slug: "nutrition-control",
     name: {
-      en: "NutriGuard, Plant-IQ",
-      ur: "NutriGuard, Plant-IQ",
+      en: "Plant-IQ",
+      ur: "Plant-IQ",
     },
     shortDescription: {
       en: "Complete organic plant nutrition",
