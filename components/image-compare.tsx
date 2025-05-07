@@ -31,7 +31,7 @@ export default function ImageCompareSection({ product }: { product: any }) {
                                 rounded={true}
                                 shadow={true}
                                 initialPosition={70}
-                                height={550}
+                                height={500}
                                 className="max-w-3xl w-full mx-auto"
                             />
                         </div>
