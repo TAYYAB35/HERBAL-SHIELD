@@ -9,6 +9,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/components/language-provider"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -47,7 +48,8 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Leaf className="h-6 w-6 text-primary" />
+              <Image src="/images/mortar.png" alt="Logo" className="object-cover shadow-xl" width={50} height={30} 
+              />
               <span className="text-xl font-bold text-primary">HERBAL SHIELD</span>
             </Link>
           </div>
