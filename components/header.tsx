@@ -10,12 +10,15 @@ import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/components/language-provider"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
+import { useTheme } from "next-themes"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
   const { language, translations } = useLanguage()
+  const { theme, resolvedTheme } = useTheme()
+  const [logoSrc, setLogoSrc] = useState("/images/biogro.png")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +28,15 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  useEffect(() => {
+    const currentTheme = resolvedTheme || theme
+    if (currentTheme === "dark") {
+      setLogoSrc("/images/biogro-dark.png")
+    } else {
+      setLogoSrc("/images/biogro-light.png")
+    }
+  }, [theme, resolvedTheme])
 
   const toggleMenu = () => setIsOpen(!isOpen)
   const closeMenu = () => setIsOpen(false)
@@ -48,9 +60,14 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/images/mortar.png" alt="Logo" className="object-cover shadow-xl" width={50} height={30} 
+              <Image 
+                src={logoSrc} 
+                alt="BioGro Logo" 
+                className="object-cover" 
+                width={150} 
+                height={60}
+                key={logoSrc}
               />
-              <span className="text-xl font-bold text-primary">HERBAL SHIELD</span>
             </Link>
           </div>
 
@@ -85,8 +102,14 @@ export default function Header() {
         <div className="fixed inset-0 z-50 bg-background md:hidden">
           <div className="container flex h-16 items-center justify-between">
             <Link href="/" className="flex items-center space-x-2" onClick={closeMenu}>
-              <Leaf className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold text-primary">{translations.brand}</span>
+              <Image 
+                src={logoSrc} 
+                alt="BioGro Logo" 
+                width={120} 
+                height={46} 
+                className="object-contain"
+                key={logoSrc + "-mobile"}
+              />
             </Link>
             <Button variant="ghost" size="icon" onClick={closeMenu}>
               <X className="h-6 w-6" />

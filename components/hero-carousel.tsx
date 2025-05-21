@@ -36,7 +36,7 @@ interface CarouselSlide {
 }
 
 // Pre-defined message
-const message = "Hello! I'm interested in Organic Herbal Shield products."
+const message = "Hello! I'm interested in Organic BioGro+ products."
 
 const whatsappUrl = `https://wa.me/+923038406091?text=${encodeURIComponent(message)}`
 
@@ -47,7 +47,7 @@ const carouselSlides: CarouselSlide[] = [
       ur: "اپنی فصلوں کا قدرتی طریقے سے دفاع کریں۔",
     },
     description: {
-      en: "Herbal Shield provides effective, natural alternatives to chemical products. Our organic solutions (PlantGuard, HormoGuard) protect plants from pests, promote growth, and enhance nutrition without harmful side effects.",
+      en: "BioGro+ provides effective, natural alternatives to chemical products. Our organic solutions (PlantGuard, HormoGuard) protect plants from pests, promote growth, and enhance nutrition without harmful side effects.",
       ur: "ہربل شیلڈ کیمیائی مصنوعات کا ایک مؤثر اور قدرتی متبادل فراہم کرتی ہے، ہمارے قدرتی حل جیسے پلانٹ گارڈ اور ہارمو گارڈ پودوں کو کیڑوں سے بچاتے ہیں، نشوونما کو فروغ دیتے ہیں اور بغیر کسی نقصان دہ ضمنی اثرات کے غذائیت میں اضافہ کرتے ہیں۔"
     },
     primaryCta: {
@@ -76,7 +76,7 @@ const carouselSlides: CarouselSlide[] = [
       ur: "قدرتی طور پر اپنے پودوں کے ہارمونل توازن کو برقرار رکھیں۔ ہماری جڑی بوٹیوں والی ہارمونل پروڈکٹ ترقی اور نشوونما کو فروغ دیتی ہے اس طرح بہتر پیداوار کو یقینی بناتی ہے- صفر مصنوعی ان پٹ کے ساتھ پودوں کی نشوونما کے ہر مرحلے میں معاونت کرتی ہے۔"
     },
     primaryCta: {
-      en: "Try Herbal Shield Now",
+      en: "Try BioGro+ Now",
       ur: "ہربل شیلڈ ابھی آزمائیں",
       href: "/products/pesticide-control",
     },

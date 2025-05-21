@@ -36,7 +36,7 @@ export default function ProductHero({ product }: ProductHeroProps) {
 
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="px-6">
-                {language === "en" ? "Try Herbal Shield Now" : "ہربل شیلڈ ابھی آزمائیں"}
+                {language === "en" ? "Try BioGro+ Now" : "ہربل شیلڈ ابھی آزمائیں"}
               </Button>
             </div>
 
@@ -48,7 +48,7 @@ export default function ProductHero({ product }: ProductHeroProps) {
               </div>
               <p className="text-sm font-medium">
                 <span className="font-bold">500+</span>{" "}
-                {language === "en" ? "farmers trust Herbal Shield" : "کسان ہربل شیلڈ پر بھروسہ کرتے ہیں"}
+                {language === "en" ? "farmers trust BioGro+" : "کسان ہربل شیلڈ پر بھروسہ کرتے ہیں"}
               </p>
             </div>
 

@@ -1,5 +1,5 @@
 export const en = {
-  brand: "Herbal Shield",
+  brand: "BioGro+",
 
   nav: {
     home: "Home",
@@ -27,7 +27,7 @@ export const en = {
     description:
       "Our plant-based formula fights off harmful pests without toxic chemicals. It’s safe for crops, gentle on the environment, and tough on unwanted invaders — giving your plants the protection they deserve.",
     primaryCta: "Explore Products",
-    secondaryCta: "Try Herbal Shield Now",
+    secondaryCta: "Try BioGro+ Now",
   },
 
   products: {
@@ -47,7 +47,7 @@ export const en = {
     disadvantagesTitle: "Why Chemicals Aren’t the Best Choice",
     disadvantagesDescription: "Why chemical solutions are harmful for your plants, health, and the environment.",
 
-    advantagesTitle: "Nature’s Power, Proven by Herbal Shield",
+    advantagesTitle: "Nature’s Power, Proven by BioGro+",
     advantagesDescription: "How our organic solution provides better results without harmful side effects.",
 
     faqTitle: "Frequently Asked Questions",

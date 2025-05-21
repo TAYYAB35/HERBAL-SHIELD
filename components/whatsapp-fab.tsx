@@ -14,7 +14,7 @@ export default function WhatsAppFAB() {
   // Pre-defined message
   const message =
     language === "en"
-      ? "Hello! I'm interested in Organic Herbal Shield products."
+      ? "Hello! I'm interested in Organic BioGro+ products."
       : "ہیلو! میں آرگینک ہربل شیلڈ مصنوعات میں دلچسپی رکھتا ہوں۔"
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
